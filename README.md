@@ -11,7 +11,7 @@ This project was developed in a development environment using the following tech
 ## First steps
 
 ### Database
-You will need to create a local database named `"ict-db"` (ict stands for infocasas test), or if you want you can change the ref database name that is stored in the variable`"DB_DATABASE"` stored in the `.env` file.
+You will need to create a local database named `"ict-db"` (ict stands for infocasas test), or if you want you can change the ref of the database name that is stored in the variable`"DB_DATABASE"` stored in the `.env` file.
 
 ### To run the project
 Open a terminal and execute:
@@ -21,6 +21,6 @@ Open a terminal and execute:
 * At this point you should have everything, make sure your `apache` and `mysql` services are running in `xampp` and run `php artisan serve` in your terminal.
 
 ## Testing endpoints
-You can test the endpoints using the `front end` or you can test them by using the `postmark collection` I have attached on the email I have sent you containing the links to the repos.
+You can test the endpoints using the `front end` or you can test them using this [Postmark Collection]().
 
 To import the postmark collection simply click on the `import` button in your postmark workspace and then simply drag and drop the file.
