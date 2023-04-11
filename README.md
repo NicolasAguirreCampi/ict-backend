@@ -11,7 +11,7 @@ This project was developed in a development environment using the following tech
 ## First steps
 
 ### Database
-You will need to create a local database named `"ict-db"` (ict stands for infocasas test), or if you want you can change the ref database name that is stored in the variable`"DB_DATABASE"` stored in the `.env` file.
+You will need to create a local database named `"ict-db"` (ict stands for infocasas test), or if you want you can change the ref of the database name that is stored in the variable`"DB_DATABASE"` stored in the `.env` file.
 
 ### To run the project
 Open a terminal and execute:
