@@ -1,17 +1,26 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
 ## Requirements to run this project
-This project was created in a development environment as follows:
-xampp
-mysql
-laravel
-eloquent
 
-You will need to have a local database named "ict-db"
+This project was developed in a development environment using the following technologies:
+
+* xampp
+* mysql
+* laravel
+* eloquent
+
+## First steps
+
+### Database
+You will need to create a local database named `"ict-db"` (ict stands for infocasas test), or if you want you can change the ref database name that is stored in the variable`"DB_DATABASE"` stored in the `.env` file.
+
+### To run the project
+Open a terminal and execute:
+* `composer install`.
+* Then to run the migration run `php artisan migrate`, if executing this command results in a message that says: 'Nothing to migrate', please first run `php artisan migrate:reset` and then run `php artisan migrate`.
+* To have test data run `php artisan db:seed`.
+* At this point you should have everything, make sure your `apache` and `mysql` services are running in `xampp` and run `php artisan serve` in your terminal.
+
+## Testing endpoints
+You can test the endpoints using the `front end` or you can test them by using the `postmark collection` attached on the email I have sent you containing the links to the repos.
+
+To import the postmark collection simply click on the `import` button in your postmark workspace and drag and drop the file.
