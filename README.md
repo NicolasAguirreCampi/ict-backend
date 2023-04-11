@@ -21,6 +21,6 @@ Open a terminal and execute:
 * At this point you should have everything, make sure your `apache` and `mysql` services are running in `xampp` and run `php artisan serve` in your terminal.
 
 ## Testing endpoints
-You can test the endpoints using the `front end` or you can test them using this [Postmark Collection]().
+You can test the endpoints using the `front end` or you can test them using this [Postmark Collection](https://github.com/NicolasAguirreCampi/ict-backend/blob/master/infocasas%20test.postman_collection.json).
 
 To import the postmark collection simply click on the `import` button in your postmark workspace and then simply drag and drop the file.
